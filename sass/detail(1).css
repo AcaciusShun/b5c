@@ -1,0 +1,36 @@
+.detail-center .detail-sku .sku-detail .sku-price-num-kuajing {
+  float: left;
+  width: 94%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  margin-left: 10px;
+  border-bottom: 1px dashed #d8d8d8; }
+
+.detail-center .detail-sku .sku-detail .sku-price-num-kuajing.last {
+  border: 0;
+  font-weight: bold; }
+
+.detail-center .detail-sku .sku-detail .sku-price-num-kuajing.last .tip {
+  padding: 0 15px;
+  cursor: pointer; }
+
+.detail-center .detail-sku .sku-detail .tip-detail {
+  position: absolute;
+  display: none;
+  top: 28px;
+  width: 330px;
+  background-color: #fff;
+  right: -32px;
+  line-height: 22px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  border: 1px solid #d8d8d8; }
+
+.detail-center .detail-sku .sku-detail .tip-detail a {
+  color: #eb1151; }
+
+/*# sourceMappingURL=detail(1).css.map */

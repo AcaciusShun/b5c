@@ -1,0 +1,2845 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>帮5采-首页</title>
+    <link href="css/common.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/require-min.js" defer async="true" data-main="js/main"></script>
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js" ></script>
+
+
+</head>
+
+<body>
+    <div id="b5c_wrap">
+        <div class="topbar-bg">
+            <div class="topbar">
+                <div class="topbar-right">
+                    <div class="b5c-topbar" data-mps="topbar">
+                        <a href="">我的帮5采</a> |
+                        <a href="">我的收藏</a> |
+                        <a href="">常见问题</a> |
+                        <a href="" class="topbar-text">联系我们</a>
+                    </div>
+                </div>
+                <div class="b5c-login">
+                    <a href="index.html"><img src="img/icon.png"><span>首页</span></a>
+                    <span>欢迎来到帮5采</span>
+                    <div class="login">
+                        <a href="login.html">登录</a> |
+                        <a href="register.html">免费注册</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toplogo-bg">
+            <div class="toplogo">
+                <div class="logo">
+                    <a href=""><img src="img/b5c_logo.png" alt="帮5采logo"></a>
+                </div>
+                <div class="top-search" style="z-index:99">
+                    <form action="" method="" id="search-form-nav" onsubmit="return false">
+                        <input type="text" name="w" class="search" id="input-search-header" placeholder="请输入搜索内容">
+                    </form>
+                    <span style="cursor: pointer;" class="search-btn">搜索</span>
+                    <div id="auto-fill-div-self"></div>
+                </div>
+                <div class="top-cart">
+                    <a href="cart.html">
+                        <span class="top-cart-part">
+                            <i></i>
+                        </span>购物车
+                    </a>
+                </div>
+                <div class="top-want"><a href=""><span class="top-want-part"><i></i></span>我的求购</a></div>
+            </div>
+        </div>
+        <div class="topnav-bg">
+            <div class="topnav">
+                <ul class="menu-lists">
+                    <li class="menu-item"><a class="nav-tit active" href="index.html">首页</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">美容彩妆</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">服饰鞋包</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">家居生活</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">母婴专区</a></li>
+                    <li class="menu-item"><span style="cursor: pointer;" class="nav-tit hovercat">全部品牌</span></li>
+                    <li class="menu-item"><a class="nav-tit" href="">保税商品</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">直邮商品</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">现货商品</a></li>
+                    <li class="menu-item"><a class="nav-tit" href="">完税商品</a></li>
+                    <li class="menu-item"><a class="nav-tit hovercat" href="">关于帮5采</a></li>
+                </ul>
+                
+                <!-- 鼠标移动到栏目上时，显示的列表 -> 顺序对应 -->
+                <div class="menu-unslider">
+                    <div class="menu-brand-lists">
+                        <ul class="menu-brand" style="display:block;padding:0px 0px">
+                        </ul>
+                    </div>
+                    <div class="menu-brand-lists">
+                        <div class="menu-classify">
+                            <div class="menu-classify-part">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title"><a href="list.html">护肤</a></div>
+                                    <ul>
+                                        <li><a href="">洁面</a></li>
+                                        <li><a href="">爽肤水</a></li>
+                                        <li><a href="">卸妆</a></li>
+                                        <li><a href="">乳液/凝胶</a></li>
+                                        <li><a href="">面霜</a></li>
+                                        <li><a href="">眼部护理</a></li>
+                                        <li><a href="">精华</a></li>
+                                        <li><a href="">唇部护理</a></li>
+                                        <li><a href="">手/足护理</a></li>
+                                        <li><a href="">身体护理</a></li>
+                                        <li><a href="">护肤套装</a></li>
+                                        <li><a href="">男士护肤</a></li>
+                                        <li><a href="">精油香薰</a></li>
+                                        <li><a href="">防晒霜</a></li>
+                                        <li><a href="">面膜</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title">
+                                        <a href="list.html">彩妆</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="list.html">BB霜/CC霜</a></li>
+                                        <li><a href="list.html">唇膏/唇彩</a></li>
+                                        <li><a href="list.html">隔离/妆前</a></li>
+                                        <li><a href="list.html">粉底</a></li>
+                                        <li><a href="list.html">美甲</a></li>
+                                        <li><a href="list.html">眼线</a></li>
+                                        <li><a href="list.html">睫毛膏</a></li>
+                                        <li><a href="list.html">眼影</a></li>
+                                        <li><a href="list.html">高光/修颜</a></li>
+                                        <li><a href="list.html">化妆工具</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-classify-part right">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title right"><a>热门品牌</a></div>
+                                    <ul class="brand-ul">
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="ALOVIVI" src="http://upm01.b5m.com/f34ccf002b8db894d223ba3498d48d96">
+                                                <span>ALOVIVI</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Anthology" src="http://upm01.b5m.com/926b1656c8ab7caf68fb8267dc5c1ee6">
+                                                <span>Anthology</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="爱图凯皙" src="http://upm01.b5m.com/2c16cdb9aab927f70fe4c7ab83785056">
+                                                <span>爱图凯皙</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="爱多康" src="http://upm01.b5m.com/c806c63be96214dce6c262eb153e0a16">
+                                                <span>爱多康</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Beauty Kei" src="http://upm01.b5m.com/f29443e77d9d83dcd0fd049f98d1c80f">
+                                                <span>Beauty Kei</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="保黛宝" src="http://upm01.b5m.com/a4c412e3c446d4427528deecd0c4eb71">
+                                                <span>保黛宝</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Bifesta" src="http://upm01.b5m.com/0ddc7f22f2b339c81d24f54f52de7229">
+                                                <span>Bifesta</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="贝德玛" src="http://upm01.b5m.com/fad3ffaf5a5421bd9359dc557c82e023">
+                                                <span>贝德玛</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="bonvivant" src="http://upm01.b5m.com/e7605428b99a97e7582ed47c8a9dd0d7">
+                                                <span>bonvivant</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="蓓昂斯" src="http://upm01.b5m.com/4fd0ef0cac073937dbb57b1a119708f3">
+                                                <span>蓓昂斯</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Clean Beauty" src="http://upm01.b5m.com/2032225c5d53ca46c6669da409171428">
+                                                <span>Clean Beauty</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="九朵云" src="http://upm01.b5m.com/06a90a99d3b63e458fde0ce4ef270c6e">
+                                                <span>九朵云</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="高丽雅娜" src="http://upm01.b5m.com/450ff4092071d5f70915360b5edc5679">
+                                                <span>高丽雅娜</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="DHC" src="http://upm01.b5m.com/d2c395bc63d9ba4ec7521bae8d8b7336">
+                                                <span>DHC</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="DIAFORCE" src="http://upm01.b5m.com/fbc962fd40ec663a28186d4a0828193c">
+                                                <span>DIAFORCE</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-brand-lists">
+                        <div class="menu-classify">
+                            <div class="menu-classify-part">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title"><a href="">男装</a></div>
+                                    <ul>
+                                        <li><a href="">外套</a></li>
+                                        <li><a href="">T恤</a></li>
+                                        <li><a href="">衬衫</a></li>
+                                        <li><a href="">夹克</a></li>
+                                        <li><a href="">卫衣</a></li>
+                                        <li><a href="">牛仔裤</a></li>
+                                        <li><a href="">休闲裤</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">女装</a></div>
+                                    <ul>
+                                        <li><a href="">衬衫</a></li>
+                                        <li><a href="">开衫</a></li>
+                                        <li><a href="">卫衣</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">女士箱包</a></div>
+                                    <ul>
+                                        <li><a href="">单肩包</a></li>
+                                        <li><a href="">斜挎包</a></li>
+                                        <li><a href="">手提包</a></li>
+                                        <li><a href="">双肩包</a></li>
+                                        <li><a href="">钱包/卡包</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">男士箱包</a></div>
+                                    <ul>
+                                        <li><a href="">双肩包</a></li>
+                                        <li><a href="">钱包/卡包</a></li>
+                                        <li><a href="">电脑包</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">手表配饰</a></div>
+                                    <ul>
+                                        <li><a href="">项链</a></li>
+                                        <li><a href="">手链</a></li>
+                                        <li><a href="">戒指</a></li>
+                                        <li><a href="">耳饰</a></li>
+                                        <li><a href="">丝巾</a></li>
+                                        <li><a href="">帽子</a></li>
+                                        <li><a href="">墨镜</a></li>
+                                        <li><a href="">手机壳</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-classify-part right">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title right"><a>热门品牌</a></div>
+                                    <ul class="brand-ul">
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="ATTRANGS" src="http://upm01.b5m.com/6d38fc89ceb3fd2d265b6796e5641ffb">
+                                                <span>ATTRANGS</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="CLRIDE.n" src="http://upm01.b5m.com/990ea3287d6ed70776173a7b95471591">
+                                                <span>CLRIDE.n</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="COLUMBUS" src="http://upm01.b5m.com/f611329473df6fc84048350ae0c8a2e6">
+                                                <span>COLUMBUS</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="COOD GEAR" src="http://upm01.b5m.com/b2353882a37f8b6d72214ffe6cb4265b">
+                                                <span>COOD GEAR</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Dr.MIZ" src="http://upm01.b5m.com/de38a4014397bcd886831659b8ff01a5">
+                                                <span>Dr.MIZ</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="EGOIST" src="http://upm01.b5m.com/bc00e5590baaf9e0648e1c207d2c7e59">
+                                                <span>EGOIST</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Fluke" src="http://upm01.b5m.com/290ff7f794e3e278b8f02ccef0f4fd22">
+                                                <span>Fluke</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="Hjleports" src="http://upm01.b5m.com/503c8e0d48468bf92aca69564114fc15">
+                                                <span>Hjleports</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="ist kunst" src="http://upm01.b5m.com/365175bb8f92e5c9662c0036e479f720">
+                                                <span>ist kunst</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="JAVISI" src="http://upm01.b5m.com/b871e1d3672b3b0c7969f664087b142d">
+                                                <span>JAVISI</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="jogunshop" src="http://upm01.b5m.com/6d3997d0e06e9a66b5b623caabaca330">
+                                                <span>jogunshop</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="lapalette" src="http://upm01.b5m.com/7ecaee649f42f9359b64ab4815cf754a">
+                                                <span>lapalette</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="乐克莱沃" src="http://upm01.b5m.com/f22e947cdabbf5c188ac66b4c68b7a06">
+                                                <span>乐克莱沃</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="DESIGNER LEE GEON MAAN" src="http://upm01.b5m.com/ac197ec8bf616957d082e010c83381e5">
+                                                <span>DESIGNER LEE GEON MAAN</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="NEVER EVER" src="http://upm01.b5m.com/8e62aaac6f59c1b799384c86ea414d98">
+                                                <span>NEVER EVER</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-brand-lists">
+                        <div class="menu-classify">
+                            <div class="menu-classify-part">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title"><a href="">洗护系列</a></div>
+                                    <ul>
+                                        <li><a href="">洗发护发</a></li>
+                                        <li><a href="">牙膏</a></li>
+                                        <li><a href="">染发剂</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">个人用品</a></div>
+                                    <ul>
+                                        <li><a href="">卫生巾系列</a></li>
+                                        <li><a href="">成人用品</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">居家日用</a></div>
+                                    <ul>
+                                        <li><a href="">杯子</a></li>
+                                        <li><a href="">收纳整理</a></li>
+                                        <li><a href="">创意礼品</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-classify-part right">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title right"><a>热门品牌</a></div>
+                                    <ul class="brand-ul">
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="2S Candle" src="http://upm01.b5m.com/05d66c4322f9971aa80e418ae0dd0215">
+                                                <span>2S Candle</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="artchip" src="http://upm01.b5m.com/b5fae5b06311259814d980c5227b2449">
+                                                <span>artchip</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="拳头商品" src="http://upm01.b5m.com/6c083cab665f27b99f61fb07bbc7292a">
+                                                <span>拳头商品</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="贵爱娘" src="http://upm01.b5m.com/8402598619233f6e515ab141dc9415b9">
+                                                <span>贵爱娘</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="BONICREW" src="http://upm01.b5m.com/96eb0e64241185004f30e7a1e3ca6ef2">
+                                                <span>BONICREW</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="California Scents" src="http://upm01.b5m.com/fdbf0b2191ad75927786984aad09be00">
+                                                <span>California Scents</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="康绮墨丽" src="http://upm01.b5m.com/bef678b8104cb2c656487eb897bb9b27">
+                                                <span>康绮墨丽</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="康绮墨丽" src="http://upm01.b5m.com/a405a568a76effbaab4295ff070ae074">
+                                                <span>康绮墨丽</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="facelle" src="http://upm01.b5m.com/20421529f87b5bdaa21f7ee33e0d6ec0">
+                                                <span>facelle</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="芳芯" src="http://upm01.b5m.com/6ecf4df767f71465df2e6f01de97d3d5">
+                                                <span>芳芯</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="GoodGN" src="http://upm01.b5m.com/090eed8a4ca499ef70bc47adae28ea8e">
+                                                <span>GoodGN</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="翰尔希" src="http://upm01.b5m.com/5df53f84773998d9e92f6fbafb7fbf6d">
+                                                <span>翰尔希</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="JungkwangPSI" src="http://upm01.b5m.com/213c6f41d1785c873b816b2b02e2e2d3">
+                                                <span>JungkwangPSI</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="正官庄" src="http://upm01.b5m.com/23548ff540c5fdbda14c72ee9cf8e7ca">
+                                                <span>正官庄</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="KH VATEC" src="http://upm01.b5m.com/7e0ae5423a50011df442b07f4e959672">
+                                                <span>KH VATEC</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-brand-lists">
+                        <div class="menu-classify">
+                            <div class="menu-classify-part">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title"><a href="">奶粉</a></div>
+                                    <ul>
+                                        <li><a href="">1段</a></li>
+                                        <li><a href="">Pre段</a></li>
+                                        <li><a href="">2段</a></li>
+                                        <li><a href="">3段</a></li>
+                                        <li><a href="">4段（1+）</a></li>
+                                        <li><a href="">5段（2+）</a></li>
+                                        <li><a href="">6段</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">童装</a></div>
+                                    <ul>
+                                        <li><a href="">童裤</a></li>
+                                        <li><a href="">童裙</a></li>
+                                        <li><a href="">童上衣</a></li>
+                                        <li><a href="">童帽</a></li>
+                                        <li><a href="">童内衣</a></li>
+                                        <li><a href="">童套装</a></li>
+                                        <li><a href="">儿童配饰</a></li>
+                                    </ul>
+                                    <div class="menu-classify-mode-title"><a href="">宝宝用品</a></div>
+                                    <ul>
+                                        <li><a href="">日常护理</a></li>
+                                        <li><a href="">喂养</a></li>
+                                        <li><a href="">清洁消毒</a></li>
+                                        <li><a href="">其他玩具</a></li>
+                                        <li><a href="">宝宝家居</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-classify-part right">
+                                <div class="menu-classify-mode">
+                                    <div class="menu-classify-mode-title right">
+                                        <a>热门品牌</a>
+                                    </div>
+                                    <ul class="brand-ul">
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="伊莎堡" src="http://upm01.b5m.com/d5f803c45511d9e1c83b38e5a20afc25">
+                                                <span>伊莎堡</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="爱多康" src="http://upm01.b5m.com/c806c63be96214dce6c262eb153e0a16">
+                                                <span>爱多康</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="babyskin" src="">
+                                                <span>babyskin
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="贝贝德皮诺" src="http://upm01.b5m.com/a1ba8d98d781340fb3db91e707c3b855">
+                                                <span>贝贝德皮诺</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="BLACKMORES" src="http://upm01.b5m.com/0d8c637513ef80b106e3045622b56669">
+                                                <span>BLACKMORES</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="保宁米迪恩" src="http://upm01.b5m.com/35a6245b6abfd3a495e6c0cff9fdd505">
+                                                <span>保宁米迪恩</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="CIELLO" src="http://upm01.b5m.com/8587e66f0203390d7ac4cbc39a7e02ae">
+                                                <span>CIELLO</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="creation asb" src="http://upm01.b5m.com/5bce2e37b97904220a0e7455c4d8fe87">
+                                               <span>creation asb</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="DerMaB" src="http://upm01.b5m.com/adb72aa4c6096b033423bb8cbd711b37">
+                                                <span>DerMaB</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="enfance" src="http://upm01.b5m.com/71ed71fa6b12af831529d80987a26bb1">
+                                                <span>enfance</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box first">
+                                            <a href="">
+                                                <img alt="法猫" src="http://upm01.b5m.com/054e03e6738dca3ff5d2e0ab962f9383">
+                                                <span>法猫</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="IAM" src="http://upm01.b5m.com/2b82fbb08e2f6a00072471788473d8e9">
+                                                <span>IAM</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="Guess KIDS" src="http://upm01.b5m.com/4530e1694c882d474c40175fa3266cf6">
+                                                <span>Guess KIDS</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="Happyland" src="http://upm01.b5m.com/d8cc2f9356b30c07f370e0f9850427d2">
+                                                <span>Happyland</span>
+                                            </a>
+                                        </li>
+                                        <li class="brand-box">
+                                            <a href="">
+                                                <img alt="icebiscuit" src="http://upm01.b5m.com/9545d72d3c1f62678f1a82e924c50055">
+                                                <span>icebiscuit</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-brand-lists">
+                        <div class="menu-unslider-all" style="display:block">
+                            <div class="all-sort all-sort1">
+                                <span class="sort sort-active sort-fenlei1">分类排序</span>
+                                <span class="sort sort-zimu">字母排序</span>
+                            </div>
+                            <div class="sort-main-1 sort-main-11" style="display:block">
+                                <ul class="sort-main-ul">
+                                    <li class="child-category">
+                                        护肤
+                                        <span>|</span>
+                                        <input type="hidden" alt="护肤" value="hufu">
+                                    </li>
+                                    <li class="child-category">
+                                        彩妆
+                                        <span>|</span>
+                                        <input type="hidden" alt="彩妆" value="caizhuang">
+                                    </li>
+                                    <li class="child-category">
+                                        男装
+                                        <span>|</span>
+                                        <input type="hidden" alt="男装" value="nanzhuang">
+                                    </li>
+                                    <li class="child-category">
+                                        女装
+                                        <span>|</span>
+                                        <input type="hidden" alt="女装" value="nvzhuang">
+                                    </li>
+                                    <li class="child-category">
+                                        女士箱包
+                                        <span>|</span>
+                                        <input type="hidden" alt="女士箱包" value="nvshixiangbao">
+                                    </li>
+                                    <li class="child-category">
+                                        男士箱包
+                                        <span>|</span>
+                                        <input type="hidden" alt="男士箱包" value="nanshixiangbao">
+                                    </li>
+                                    <li class="child-category">
+                                        手表配饰
+                                        <span>|</span>
+                                        <input type="hidden" alt="手表配饰" value="shoubiaopeishi">
+                                    </li>
+                                    <li class="child-category">
+                                        洗护系列
+                                        <span>|</span>
+                                        <input type="hidden" alt="洗护系列" value="xihuxilie">
+                                    </li>
+                                    <li class="child-category">
+                                        个人用品
+                                        <span>|</span>
+                                        <input type="hidden" alt="个人用品" value="gerenyongpin">
+                                    </li>
+                                    <li class="child-category">
+                                        居家日用
+                                        <span>|</span>
+                                        <input type="hidden" alt="居家日用" value="jujiariyong">
+                                    </li>
+                                    <li class="child-category">
+                                        奶粉
+                                        <span>|</span>
+                                        <input type="hidden" alt="奶粉" value="naifen">
+                                    </li>
+                                    <li class="child-category">
+                                        童装
+                                        <span>|</span>
+                                        <input type="hidden" alt="童装" value="tongzhuang">
+                                    </li>
+                                    <li class="child-category">
+                                        宝宝用品
+                                        <span>|</span>
+                                        <input type="hidden" alt="宝宝用品" value="baobaoyongpin">
+                                    </li>
+                                </ul>
+                                <ul class="sort-main-brand">
+                                    <span class="sort-main-brand-classified">护肤</span>
+                                </ul>
+                            </div>
+                            <div class="sort-main-2 sort-main-21" style="display: none;">
+                                <ul class="sort-letter-ul">
+                                    <li class="child-zimu">A_D
+                                        <input type="hidden" alt="A_D" value="A_D">
+                                    </li>
+                                    <li class="child-zimu">E_H
+                                        <input type="hidden" alt="E_H" value="E_H">
+                                    </li>
+                                    <li class="child-zimu">I_L
+                                        <input type="hidden" alt="I_L" value="I_L">
+                                    </li>
+                                    <li class="child-zimu">M_P
+                                        <input type="hidden" alt="M_P" value="M_P">
+                                    </li>
+                                    <li class="child-zimu">Q_T
+                                        <input type="hidden" alt="Q_T" value="Q_T">
+                                    </li>
+                                    <li class="child-zimu">U_Z
+                                        <input type="hidden" alt="U_Z" value="U_Z">
+                                    </li>
+                                    <li class="child-zimu">0-9
+                                        <input type="hidden" alt="0-9" value="0-9">
+                                    </li>
+                                </ul>
+                                <ul class="sort-letter-brand">
+                                    <span class="sort-letter-brand-letter">A_D</span>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;height:0;width:0;"></div>
+        <div class="topnavinner-bg" style="display:none;height:auto !important;">
+            <div class="topnav2">
+                <a href=""><img class="topinnnerpic" src="" alt=""></a>
+                <ul class="menu-lists2">
+                    <li class="menu-item2 nav-tit-home-float"><a class="nav-tit" href="index.html">首页</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">美容彩妆</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">服饰鞋包</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">家居生活</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">母婴专区</a></li>
+                    <li class="menu-item2"><span style="cursor: pointer;" class="nav-tit hovercat">全部品牌</span></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">保税商品"</a></li>
+                    <li class=" menu-item2"><a class="nav-tit" href="">直邮商品</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">现货商品</a></li>
+                    <li class="menu-item2"><a class="nav-tit" href="">完税商品</a></li>
+                    <li class="menu-item2"><a class="nav-tit hovercat" href="">关于帮5采</a></li>
+                    <li class="menu-item2">
+                        <div class="top-cart">
+                            <a href="" id="cart-link-bar">
+                                <span class="top-cart-part">
+                                    <i></i>
+                                </span>
+                            购物车
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            <!-- 鼠标移动到栏目上时，显示的列表 -> 顺序对应 -->
+            <div class="menu-unslider2">
+                <div class="menu-brand-lists2">
+                    <ul class="menu-brand" style="display:none;padding:0 0">
+                    </ul>
+                </div>
+                <div class="menu-brand-lists2">
+                    <div class="menu-classify">
+                        <div class="menu-classify-part">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title">
+                                    <a href="">护肤</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">洁面</a></li>
+                                    <li><a href="">爽肤水</a></li>
+                                    <li><a href="">卸妆</a></li>
+                                    <li><a href="">乳液/凝胶</a></li>
+                                    <li><a href="">面霜</a></li>
+                                    <li><a href="">眼部护理</a></li>
+                                    <li><a href="">精华</a></li>
+                                    <li><a href="">唇部护理</a></li>
+                                    <li><a href="">手/足护理</a></li>
+                                    <li><a href="">身体护理</a></li>
+                                    <li><a href="">护肤套装</a></li>
+                                    <li><a href="">男士护肤</a></li>
+                                    <li><a href="">精油香薰</a></li>
+                                    <li><a href="">防晒霜</a></li>
+                                    <li><a href="">面膜</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title">
+                                    <a href="">彩妆</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">BB霜/CC霜</a></li>
+                                    <li><a href="">唇膏/唇彩</a></li>
+                                    <li><a href="">隔离/妆前</a></li>
+                                    <li><a href="">粉底</a></li>
+                                    <li><a href="">美甲</a></li>
+                                    <li><a href="">眼线</a></li>
+                                    <li><a href="">睫毛膏</a></li>
+                                    <li><a href="">眼影</a></li>
+                                    <li><a href="">高光/修颜</a></li>
+                                    <li><a href="">化妆工具</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-classify-part right">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title right">
+                                    <a>热门品牌</a>
+                                </div>
+                                <ul class="brand-ul">
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="ALOVIVI" src="http://upm01.b5m.com/f34ccf002b8db894d223ba3498d48d96">
+                                            <span>ALOVIVI</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Anthology" src="http://upm01.b5m.com/926b1656c8ab7caf68fb8267dc5c1ee6">
+                                            <span>Anthology</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="爱图凯皙" src="http://upm01.b5m.com/2c16cdb9aab927f70fe4c7ab83785056">
+                                            <span>爱图凯皙</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="爱多康" src="http://upm01.b5m.com/c806c63be96214dce6c262eb153e0a16">
+                                            <span>爱多康</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Beauty Kei" src="http://upm01.b5m.com/f29443e77d9d83dcd0fd049f98d1c80f"
+                                            ><span>Beauty Kei
+                                            </span></a>
+                                        </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="保黛宝" src="http://upm01.b5m.com/a4c412e3c446d4427528deecd0c4eb71">
+                                            <span>保黛宝</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Bifesta" src="http://upm01.b5m.com/0ddc7f22f2b339c81d24f54f52de7229">
+                                            <span>Bifesta</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="贝德玛" src="http://upm01.b5m.com/fad3ffaf5a5421bd9359dc557c82e023">
+                                            <span>贝德玛</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="bonvivant" src="http://upm01.b5m.com/e7605428b99a97e7582ed47c8a9dd0d7">
+                                            <span>bonvivant</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="蓓昂斯" src="http://upm01.b5m.com/4fd0ef0cac073937dbb57b1a119708f3">
+                                            <span>蓓昂斯</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Clean Beauty" src="http://upm01.b5m.com/2032225c5d53ca46c6669da409171428">
+                                            <span>Clean Beauty</span>
+                                        </a>
+                                         </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="九朵云" src="http://upm01.b5m.com/06a90a99d3b63e458fde0ce4ef270c6e">
+                                            <span>九朵云</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="高丽雅娜" src="http://upm01.b5m.com/450ff4092071d5f70915360b5edc5679">
+                                            <span>高丽雅娜</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="DHC" src="http://upm01.b5m.com/d2c395bc63d9ba4ec7521bae8d8b7336">
+                                            <span>DHC</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="DIAFORCE" src="http://upm01.b5m.com/fbc962fd40ec663a28186d4a0828193c">
+                                            <span>DIAFORCE</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-brand-lists2">
+                    <div class="menu-classify">
+                        <div class="menu-classify-part">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title">
+                                    <a href="">男装</a></div>
+                                <ul>
+                                    <li><a href="">外套</a></li>
+                                    <li><a href="">T恤</a></li>
+                                    <li><a href="">衬衫</a></li>
+                                    <li><a href="">夹克</a></li>
+                                    <li><a href="">卫衣</a></li>
+                                    <li><a href="">牛仔裤</a></li>
+                                    <li><a href="">休闲裤</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title">
+                                    <a href="">女装</a
+                                        ></div>
+                                <ul>
+                                    <li><a href="">衬衫</a></li>
+                                    <li><a href="">开衫</a></li>
+                                    <li><a href="">卫衣</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title"><a href="">女士箱包</a></div>
+                                <ul>
+                                    <li><a href="">单肩包</a></li>
+                                    <li><a href="">斜挎包</a></li>
+                                    <li><a href="">手提包</a></li>
+                                    <li><a href="">双肩包</a></li>
+                                    <li><a href="">钱包/卡包</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title"><a href="">男士箱包</a></div>
+                                <ul>
+                                    <li><a href="">双肩包</a></li>
+                                    <li><a href="">钱包/卡包</a></li>
+                                    <li><a href="">电脑包</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title">
+                                    <a href="">手表配饰</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">项链</a></li>
+                                    <li><a href="">手链</a></li>
+                                    <li><a href="">戒指</a></li>
+                                    <li><a href="">耳饰</a></li>
+                                    <li><a href="">丝巾</a></li>
+                                    <li><a href="">帽子</a></li>
+                                    <li><a href="">墨镜</a></li>
+                                    <li><a href="">手机壳</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-classify-part right">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title right"><a>热门品牌</a></div>
+                                <ul class="brand-ul">
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="ATTRANGS" src="http://upm01.b5m.com/6d38fc89ceb3fd2d265b6796e5641ffb">
+                                            <span>ATTRANGS</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="CLRIDE.n" src="http://upm01.b5m.com/990ea3287d6ed70776173a7b95471591">
+                                            <span>CLRIDE.n</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="COLUMBUS" src="http://upm01.b5m.com/f611329473df6fc84048350ae0c8a2e6">
+                                            <span>COLUMBUS</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="COOD GEAR" src="http://upm01.b5m.com/b2353882a37f8b6d72214ffe6cb4265b">
+                                            <span>COOD GEAR</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Dr.MIZ" src="http://upm01.b5m.com/de38a4014397bcd886831659b8ff01a5">
+                                            <span>Dr.MIZ</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="EGOIST" src="http://upm01.b5m.com/bc00e5590baaf9e0648e1c207d2c7e59">
+                                            <span>EGOIST</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Fluke" src="http://upm01.b5m.com/290ff7f794e3e278b8f02ccef0f4fd22">
+                                            <span>Fluke</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="Hjleports" src="http://upm01.b5m.com/503c8e0d48468bf92aca69564114fc15">
+                                            <span>Hjleports</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="ist kunst" src="http://upm01.b5m.com/365175bb8f92e5c9662c0036e479f720">
+                                            <span>ist kunst</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="JAVISI" src="http://upm01.b5m.com/b871e1d3672b3b0c7969f664087b142d">
+                                            <span>JAVISI</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="jogunshop" src="http://upm01.b5m.com/6d3997d0e06e9a66b5b623caabaca330">
+                                            <span>jogunshop</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="lapalette" src="http://upm01.b5m.com/7ecaee649f42f9359b64ab4815cf754a">
+                                            <span>lapalette</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="乐克莱沃" src="http://upm01.b5m.com/f22e947cdabbf5c188ac66b4c68b7a06">
+                                            <span>乐克莱沃</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="DESIGNER LEE GEON MAAN" src="http://upm01.b5m.com/ac197ec8bf616957d082e010c83381e5">
+                                            <span>DESIGNER LEE GEON MAAN</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="NEVER EVER" src="http://upm01.b5m.com/8e62aaac6f59c1b799384c86ea414d98">
+                                            <span>NEVER EVER</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-brand-lists2">
+                    <div class="menu-classify">
+                        <div class="menu-classify-part">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title">
+                                    <a href="">洗护系列</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">洗发护发</a></li>
+                                    <li><a href="">牙膏</a></li>
+                                    <li><a href="">染发剂</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title">
+                                    <a href="">个人用品</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">卫生巾系列</a></li>
+                                    <li><a href="">成人用品</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title">
+                                    <a href="">居家日用</a>
+                                </div>
+                                <ul>
+                                    <li><a href="">杯子</a></li>
+                                    <li><a href="">收纳整理</a></li>
+                                    <li><a href="">创意礼品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-classify-part right">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title right">
+                                    <a>热门品牌</a>
+                                </div>
+                                <ul class="brand-ul">
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="2S Candle" src="http://upm01.b5m.com/05d66c4322f9971aa80e418ae0dd0215">
+                                            <span>2S Candle</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="artchip" src="http://upm01.b5m.com/b5fae5b06311259814d980c5227b2449">
+                                            <span>artchip</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="拳头商品" src="http://upm01.b5m.com/6c083cab665f27b99f61fb07bbc7292a">
+                                            <span>拳头商品</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="贵爱娘" src="http://upm01.b5m.com/8402598619233f6e515ab141dc9415b9">
+                                            <span>贵爱娘</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="BONICREW" src="http://upm01.b5m.com/96eb0e64241185004f30e7a1e3ca6ef2">
+                                            <span>BONICREW</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="California Scents" src="http://upm01.b5m.com/fdbf0b2191ad75927786984aad09be00">
+                                            <span>California Scents</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="康绮墨丽" src="http://upm01.b5m.com/bef678b8104cb2c656487eb897bb9b27">
+                                            <span>康绮墨丽</span></a></li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="康绮墨丽" src="http://upm01.b5m.com/a405a568a76effbaab4295ff070ae074">
+                                            <span>康绮墨丽</span></a></li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="facelle" src="http://upm01.b5m.com/20421529f87b5bdaa21f7ee33e0d6ec0">
+                                            <span>facelle</span></a></li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="芳芯" src="http://upm01.b5m.com/6ecf4df767f71465df2e6f01de97d3d5">
+                                            <span>芳芯</span></a></li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="GoodGN" src="http://upm01.b5m.com/090eed8a4ca499ef70bc47adae28ea8e">
+                                            <span>GoodGN</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box"> 
+                                        <a href="">                       
+                                          <img alt="翰尔希" src="http://upm01.b5m.com/5df53f84773998d9e92f6fbafb7fbf6d">
+                                          <span>翰尔希</span>
+                                       </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="JungkwangPSI" src="http://upm01.b5m.com/213c6f41d1785c873b816b2b02e2e2d3">
+                                            <span>JungkwangPSI</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="正官庄" src="http://upm01.b5m.com/23548ff540c5fdbda14c72ee9cf8e7ca">
+                                            <span>正官庄</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="KH VATEC" src="http://upm01.b5m.com/7e0ae5423a50011df442b07f4e959672">
+                                            <span>KH VATEC</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-brand-lists2">
+                    <div class="menu-classify">
+                        <div class="menu-classify-part">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title"><a href="http://www.b5cai.com/c-naifen">奶粉</a></div>
+                                <ul>
+                                    <li><a href="">1段</a></li>
+                                    <li><a href="">Pre段</a></li>
+                                    <li><a href="">2段</a></li>
+                                    <li><a href="">3段</a></li>
+                                    <li><a href="">4段（1+）</a></li>
+                                    <li><a href="">5段（2+）</a></li>
+                                    <li><a href="">6段</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title"><a href="">童装</a></div>
+                                <ul>
+                                    <li><a href="">童裤</a></li>
+                                    <li><a href="">童裙</a></li>
+                                    <li><a href="">童上衣</a></li>
+                                    <li><a href="">童帽</a></li>
+                                    <li><a href="">童内衣</a></li>
+                                    <li><a href="">童套装</a></li>
+                                    <li><a href="">儿童配饰</a></li>
+                                </ul>
+                                <div class="menu-classify-mode-title"><a href="">宝宝用品</a></div>
+                                <ul>
+                                    <li><a href="">日常护理</a></li>
+                                    <li><a href="">喂养</a></li>
+                                    <li><a href="">清洁消毒</a></li>
+                                    <li><a href="">其他玩具</a></li>
+                                    <li><a href="">宝宝家居</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-classify-part right">
+                            <div class="menu-classify-mode">
+                                <div class="menu-classify-mode-title right"><a>热门品牌</a></div>
+                                <ul class="brand-ul">
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="伊莎堡" src="http://upm01.b5m.com/d5f803c45511d9e1c83b38e5a20afc25">
+                                            <span>伊莎堡</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="爱多康" src="http://upm01.b5m.com/c806c63be96214dce6c262eb153e0a16">
+                                             <span>爱多康</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="babyskin" src="">
+                                             <span>babyskin</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="贝贝德皮诺" src="http://upm01.b5m.com/a1ba8d98d781340fb3db91e707c3b855">
+                                             <span>贝贝德皮诺</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="BLACKMORES" src="http://upm01.b5m.com/0d8c637513ef80b106e3045622b56669">
+                                             <span>BLACKMORES</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="保宁米迪恩" src="http://upm01.b5m.com/35a6245b6abfd3a495e6c0cff9fdd505">
+                                             <span>保宁米迪恩</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="CIELLO" src="http://upm01.b5m.com/8587e66f0203390d7ac4cbc39a7e02ae">
+                                             <span>CIELLO</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="creation asb" src="http://upm01.b5m.com/5bce2e37b97904220a0e7455c4d8fe87">
+                                                <span>creation asb</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="DerMaB" src="http://upm01.b5m.com/adb72aa4c6096b033423bb8cbd711b37">
+                                             <span>DerMaB</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="enfance" src="http://upm01.b5m.com/71ed71fa6b12af831529d80987a26bb1">
+                                             <span>enfance</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box first">
+                                        <a href="">
+                                            <img alt="法猫" src="http://upm01.b5m.com/054e03e6738dca3ff5d2e0ab962f9383">
+                                             <span>法猫</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="IAM" src="http://upm01.b5m.com/2b82fbb08e2f6a00072471788473d8e9">
+                                             <span>IAM</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="Guess KIDS" src="http://upm01.b5m.com/4530e1694c882d474c40175fa3266cf6">
+                                                <span>Guess KIDS</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="Happyland" src="http://upm01.b5m.com/d8cc2f9356b30c07f370e0f9850427d2">
+                                             <span>Happyland</span>
+                                        </a>
+                                    </li>
+                                    <li class="brand-box">
+                                        <a href="">
+                                            <img alt="icebiscuit" src="http://upm01.b5m.com/9545d72d3c1f62678f1a82e924c50055">
+                                             <span>icebiscuit</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="<menu-brand></menu-brand>-lists2">
+                            <div class="menu-unslider-all" style="display:block">
+                                <div class="all-sort all-sort2">
+                                    <span class="sort sort-active sort-fenlei2">分类排序</span>
+                                    <span class="sort sort-zimu">字母排序</span>
+                                </div>
+                                <div class="sort-main-1 sort-main-12" style="display:block">
+                                    <ul class="sort-main-ul">
+                                        <li class="child-category">护肤<span>|</span>
+                                            <input type="hidden" alt="护肤" value="hufu">
+                                        </li>
+                                        <li class="child-category">彩妆<span>|</span>
+                                            <input type="hidden" alt="彩妆" value="caizhuang">
+                                        </li>
+                                        <li class="child-category">男装<span>|</span>
+                                            <input type="hidden" alt="男装" value="nanzhuang">
+                                        </li>
+                                        <li class="child-category">女装<span>|</span>
+                                            <input type="hidden" alt="女装" value="nvzhuang">
+                                        </li>
+                                        <li class="child-category">女士箱包<span>|</span>
+                                            <input type="hidden" alt="女士箱包" value="nvshixiangbao">
+                                        </li>
+                                        <li class="child-category">男士箱包<span>|</span>
+                                            <input type="hidden" alt="男士箱包" value="nanshixiangbao">
+                                        </li>
+                                        <li class="child-category">手表配饰<span>|</span>
+                                            <input type="hidden" alt="手表配饰" value="shoubiaopeishi">
+                                        </li>
+                                        <li class="child-category">洗护系列<span>|</span>
+                                            <input type="hidden" alt="洗护系列" value="xihuxilie">
+                                        </li>
+                                        <li class="child-category">个人用品<span>|</span>
+                                            <input type="hidden" alt="个人用品" value="gerenyongpin">
+                                        </li>
+                                        <li class="child-category">居家日用<span>|</span>
+                                            <input type="hidden" alt="居家日用" value="jujiariyong">
+                                        </li>
+                                        <li class="child-category">奶粉<span>|</span>
+                                            <input type="hidden" alt="奶粉" value="naifen">
+                                        </li>
+                                        <li class="child-category">童装<span>|</span>
+                                            <input type="hidden" alt="童装" value="tongzhuang">
+                                        </li>
+                                        <li class="child-category">宝宝用品<span>|</span>
+                                            <input type="hidden" alt="宝宝用品" value="baobaoyongpin">
+                                        </li>
+                                    </ul>
+                                    <ul class="sort-main-brand">
+                                        <span class="sort-main-brand-classified">护肤</span>
+                                    </ul>
+                                </div>
+                                <div class="sort-main-2 sort-main-22" style="display: none;">
+                                    <ul class="sort-letter-ul">
+                                        <li class="child-zimu">A_D
+                                            <input type="hidden" alt="A_D" value="A_D">
+                                        </li>
+                                        <li class="child-zimu">E_H
+                                            <input type="hidden" alt="E_H" value="E_H">
+                                        </li>
+                                        <li class="child-zimu">I_L
+                                            <input type="hidden" alt="I_L" value="I_L">
+                                        </li>
+                                        <li class="child-zimu">M_P
+                                            <input type="hidden" alt="M_P" value="M_P">
+                                        </li>
+                                        <li class="child-zimu">Q_T
+                                            <input type="hidden" alt="Q_T" value="Q_T">
+                                        </li>
+                                        <li class="child-zimu">U_Z
+                                            <input type="hidden" alt="U_Z" value="U_Z">
+                                        </li>
+                                        <li class="child-zimu">0-9
+                                            <input type="hidden" alt="0-9" value="0-9">
+                                        </li>
+                                    </ul>
+                                    <ul class="sort-letter-brand">
+                                        <span class="sort-letter-brand-letter">A_D</span>
+                                    </ul>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/menu.js"></script> -->
+    </div>
+    <div class="middle-unslider" data-mps="MO11000">
+        <ul class="unslider">
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner0.png)"></a>
+            </li>
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner1.png)"></a>
+            </li>
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner2.png)"></a>
+            </li>
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner3.png)"></a>
+            </li>
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner4.png)"></a>
+            </li>
+            <li class="unslider-item">
+                <a href="" class="unslider-img" style="background-image: url(img/banner5.png);height: 400px"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="home-middle-bg">
+        <div class="home-middle">
+            <div class="g-column-tit">
+                <span class="first-word">New</span> 品牌
+            </div>
+            <div class="new-brand" data-mps="MO12000">
+                <ul class="brand">
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="尤妮佳" src="img/younijia.jpg">
+                            <i class="brand-tit"><span>尤妮佳</span></i>
+                        </a>
+                    </li>
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="兰芝" src="img/lanzhi.png">
+                            <i class="brand-tit"><span>兰芝</span></i>
+                        </a>
+                    </li>
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="美迪惠尔" src="img/meidihuier.png">
+                            <i class="brand-tit"><span>美迪惠尔</span></i>
+                        </a>
+                    </li>
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="正官庄" src="img/zhengguanzhuang.png">
+                            <i class="brand-tit"><span>正官庄</span></i>
+                        </a>
+                    </li>
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="花王妙而舒" src="img/zhinianku.jpg">
+                            <i class="brand-tit"><span>花王妙而舒</span></i>
+                        </a>
+                    </li>
+                    <li class="brand-item">
+                        <a href="">
+                            <img alt="比那氏" src="img/binashi.png">
+                            <i class="brand-tit"><span>比那氏</span></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="g-column-tit">
+                <span class="first-word">New</span> 商品
+            </div>
+            <div class="new-goods" data-mps="MO13000">
+                <ul class="g-style">
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】innisfree悦诗风吟真萃鲜润面膜 绿茶 1片" src="img/yueshi.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">悦诗风吟</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】innisfree悦诗风吟真萃鲜润面膜 绿茶 1片</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】尤妮佳Moony L54婴儿纸尿裤宝宝尿不湿" src="img/younijia.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">尤妮佳</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】尤妮佳Moony L54婴儿纸尿裤宝宝尿不湿</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】红吕护发素400ml" src="img/ryo.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">Ryo/吕</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】红吕护发素400ml</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】爱茉莉美妆仙护发精油70ml" src="img/meizhuangxian.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">美妆仙</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】爱茉莉美妆仙护发精油70ml</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】Sulwhasoo 雪花秀玉容面膜 撕拉面膜150ml" src="img/xuehuaxiu.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">雪花秀</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】Sulwhasoo 雪花秀玉容面膜 撕拉面膜150ml</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】兰芝 隔离霜 绿 30ml" src="img/lanzi.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">兰芝</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】兰芝 隔离霜 绿 30ml</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】 薏仁水化妆水" src="img/yirenshui.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="http://www.b5cai.com/brand-naturie">naturie</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="http://www.b5cai.com/brand-naturie/80004123.html">【保税商品】 薏仁水化妆水</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】It 's skin 伊思晶钻蜗牛洗面奶 150ml" src="img/yisi.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="">伊思</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】It's skin 伊思晶钻蜗牛洗面奶 150ml</a>
+                        </div>
+                    </li>
+                    <li class="g-item">
+                        <div class="g-img">
+                            <a href="">
+                            <img alt="【保税商品】It s skin伊思晶钻蜗牛霜 （白霜）60ml"
+                                 src="img/yisi2.jpg">
+                        </a>
+                        </div>
+                        <div class="g-brand-name">
+                            <a href="http://www.b5cai.com/brand-itsskin">伊思</a>
+                        </div>
+                        <div class="g-tit">
+                            <a href="">【保税商品】It s skin伊思晶钻蜗牛霜 （白霜）60ml</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="g-column-tit">
+                <span class="first-word">Hot</span> 商品
+            </div>
+            <div class="hot-goods" data-mps="MO14000">
+                <ul class="goods">
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                4.1 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/gaolishen.jpg" alt="[正官庄]&nbsp;正官庄 6年根高丽参【良字号】 20支 50g" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[正官庄]&nbsp;正官庄 6年根高丽参【良字号】 20支 50g</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥288.77&nbsp;~&nbsp;￥350.64</span>
+                                <span class="goods-price-his">￥700</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;盒</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.8 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/lvchaximiannai.jpg" alt="[悦诗风吟]&nbsp;悦诗风吟 绿茶洗面奶150ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[悦诗风吟]&nbsp;悦诗风吟 绿茶洗面奶150ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥33.31&nbsp;~&nbsp;￥36.44</span>
+                                <span class="goods-price-his">￥48.67</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span>
+                                <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/xiaomabag.jpg" alt="[lapalette]&nbsp;lapalette 金色小马图案跨包" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[lapalette]&nbsp;lapalette 金色小马图案跨包</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥808.16&nbsp;~&nbsp;￥909.17</span>
+                                <span class="goods-price-his">￥1454.13</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：10&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.0 
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/weishengjin.jpg" alt="[贵爱娘]&nbsp;LG 贵爱娘卫生巾红参日用卫生巾25cm 18片" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[贵爱娘]&nbsp;LG 贵爱娘卫生巾红参日用卫生巾25cm 18片</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥22.28&nbsp;~&nbsp;￥25.07</span>
+                                <span class="goods-price-his">￥37.11</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：16&nbsp;包</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.2 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/pucca.jpg" alt="[卡美迪]&nbsp;卡美迪 PUCCA 中国娃娃 爱版 修容高光粉 9g" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                                        <i class="country kr">&nbsp;</i>                    
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[卡美迪]&nbsp;卡美迪 PUCCA 中国娃娃 爱版 修容高光粉 9g</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥51.88&nbsp;~&nbsp;￥64</span>
+                                <span class="goods-price-his">￥164.27</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.4 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/xiaomaidingzhuang.jpg" alt="[Skinfood/思亲肤]&nbsp;思亲肤 小麦清透散粉蜜粉定妆粉 21号" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[Skinfood/思亲肤]&nbsp;思亲肤 小麦清透散粉蜜粉定妆粉 21号</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥21.95&nbsp;~&nbsp;￥27.33</span>
+                                <span class="goods-price-his">￥40.76</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/zhinianku.jpg" alt="[花王妙而舒]&nbsp;【保税商品】日本Merries花王纸尿裤 M64" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country jp">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[花王妙而舒]&nbsp;【保税商品】日本Merries花王纸尿裤 M64</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥75.59</span>
+                                <span class="goods-price-his">￥100</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;包</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.2 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/ziyangshuang.jpg" alt="[Whoo/后]&nbsp;后 拱辰享 气韵滋养霜50ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[Whoo/后]&nbsp;后 拱辰享 气韵滋养霜50ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥562.03&nbsp;~&nbsp;￥614.93</span>
+                                <span class="goods-price-his">￥912.63</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                1.8 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/yunqiji.jpg" alt="[格丽松]&nbsp;guerisson 韩国九朵云奇迹马油霜 祛斑抗痘保湿面霜 70g" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[格丽松]&nbsp;guerisson 韩国九朵云奇迹马油霜 祛斑抗痘保湿面霜 70g</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥58.22&nbsp;~&nbsp;￥65.07</span>
+                                <span class="goods-price-his">￥328.55</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：4&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/meimianmo.jpg" alt="[美迪惠尔]&nbsp;【保税商品】美迪惠尔胶原蛋白面膜 10片装" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[美迪惠尔]&nbsp;【保税商品】美迪惠尔胶原蛋白面膜 10片装</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥31.32</span>
+                                <span class="goods-price-his">￥120.88</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;盒</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/redBB.jpg" alt="[Missha/谜尚]&nbsp;谜尚 大红BB霜50ml 遮瑕bb霜21号亮肤色" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[Missha/谜尚]&nbsp;谜尚 大红BB霜50ml 遮瑕bb霜21号亮肤色</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥53.36</span>
+                                <span class="goods-price-his">￥96.13</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/LG.jpg" alt="[睿嫣]&nbsp;【保税商品】韩国LG 睿嫣 润膏 洗护2合1洗发水 无硅油  250ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[睿嫣]&nbsp;【保税商品】韩国LG 睿嫣 润膏 洗护2合1洗发水 无硅油  250ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥27.48</span>
+                                <span class="goods-price-his">￥119.67</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;支</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/niaoku.jpg" alt="[尤妮佳]&nbsp;【保税商品】尤妮佳Moony NB90 婴儿纸尿裤宝宝尿不湿" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country jp">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[尤妮佳]&nbsp;【保税商品】尤妮佳Moony NB90 婴儿纸尿裤宝宝尿不湿</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥72.7</span>
+                                <span class="goods-price-his">￥90</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;包</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                     <img src="img/pony.jpg" alt="[美美箱]&nbsp;PONY MEMEBOX 橘色花季4色眼影彩妆盘" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[美美箱]&nbsp;PONY MEMEBOX 橘色花季4色眼影彩妆盘 </a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥61.83&nbsp;~&nbsp;￥69.11</span>
+                                <span class="goods-price-his">￥109.52</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：4&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/luhuijiao.jpg" alt="[自然乐园]&nbsp;自然乐园 芦荟胶 Nature Republic 92% 300ml" style="display: inline-block;">
+                                </a>
+                           </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                                        <i class="country kr">&nbsp;</i>
+                                                    </span>
+                                <span class="goods-tit-name">
+                                                        <a href="" class="goods-tit">[自然乐园]&nbsp;自然乐园 芦荟胶 Nature Republic 92% 300ml</a>
+                                                    </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥14.87&nbsp;~&nbsp;￥14.56</span>
+                                <span class="goods-price-his">￥26.77</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/qudou.jpg" alt="[狮王]&nbsp;狮王 祛痘膏14g" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country jp">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[狮王]&nbsp;狮王 祛痘膏14g</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥80</span>
+                                <span class="goods-price-his">￥100</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;支</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.8 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/xuehuaxiu.jpg" alt="[雪花秀]&nbsp;雪花秀 气垫bb霜木莲花粉底液 21号" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[雪花秀]&nbsp;雪花秀 气垫bb霜木莲花粉底液 21号</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥270.61&nbsp;~&nbsp;￥296.08</span>
+                                <span class="goods-price-his">￥395.47</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/fox.png" alt="[affen zahn]&nbsp;Affenzahn 卡通狐狸包包" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[affen zahn]&nbsp;Affenzahn 卡通狐狸包包</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥199.43&nbsp;~&nbsp;￥216.25</span>
+                                <span class="goods-price-his">￥358.97</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;件</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                4.8 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/LGweishengjin.jpg" alt="[贵爱娘]&nbsp;LG 贵爱娘 中草药卫生巾小型 21cm 18P" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[贵爱娘]&nbsp;LG 贵爱娘 中草药卫生巾小型 21cm 18P</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥18.75&nbsp;~&nbsp;￥21.09</span>
+                                <span class="goods-price-his">￥38.94</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：16&nbsp;包</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/yirenshui.jpg" alt="[naturie]&nbsp;【保税商品】 薏仁水化妆水" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                <i class="country jp">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[naturie]&nbsp;【保税商品】 薏仁水化妆水</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥28.52</span>
+                                <span class="goods-price-his">￥55</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                4.3 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/boniaosuan.jpg" alt="[CJ innerb]&nbsp;CJ innerb 玻尿酸胶原蛋白补水胶囊（粉色）" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[CJ innerb]&nbsp;CJ innerb 玻尿酸胶原蛋白补水胶囊（粉色）</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥165.93&nbsp;~&nbsp;￥210.18</span>
+                                <span class="goods-price-his">￥383.31</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/xiezhuangyou.jpg" alt="[DHC]&nbsp;DHC 深层卸妆油200ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country jp">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[DHC]&nbsp;DHC 深层卸妆油200ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥119</span>
+                                <span class="goods-price-his">￥180</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.7 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/xiangzao.jpg" alt="[爱多康]&nbsp;ATOPALM 镇定护肤香皂 90g" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[爱多康]&nbsp;ATOPALM 镇定护肤香皂 90g</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥18.93&nbsp;~&nbsp;￥28.39</span>
+                                <span class="goods-price-his">￥51.11</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                2.7 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/meimianmo.jpg" alt="[Nature factory]&nbsp;Naturefactory PUCCA 驴奶面膜" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[Nature factory]&nbsp;Naturefactory PUCCA 驴奶面膜</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥4.98&nbsp;~&nbsp;￥5.6</span>
+                                <span class="goods-price-his">￥18.25</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;盒</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.2 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/shuye.jpg" alt="[ShuLAB]&nbsp;Shu LAB 3号 苦棟树叶提取物护肤霜+乳液二合一 35ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[ShuLAB]&nbsp;Shu LAB 3号 苦棟树叶提取物护肤霜+乳液二合一 35ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥56.61&nbsp;~&nbsp;￥68.74</span>
+                                <span class="goods-price-his">￥176.44</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;支</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                5.6 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/8se.jpg" alt="[美美箱]&nbsp;PONY MEMEBOX 8色眼影彩妆盘 自然打底眉粉修容" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[美美箱]&nbsp;PONY MEMEBOX 8色眼影彩妆盘 自然打底眉粉修容</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥103.05&nbsp;~&nbsp;￥115.18</span>
+                                <span class="goods-price-his">￥182.53</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：4&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.0 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/chuncai.jpg" alt="[卡美迪]&nbsp;卡美迪 PUCCA可爱版唇彩" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[卡美迪]&nbsp;卡美迪 PUCCA可爱版唇彩</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥33.19&nbsp;~&nbsp;￥42.67</span>
+                                <span class="goods-price-his">￥109.52</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;支</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.1 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/milk.jpg" alt="[延世牛奶]&nbsp;延世 无菌牛奶 草莓 1盒" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[延世牛奶]&nbsp;延世 无菌牛奶 草莓 1盒</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥3.69&nbsp;~&nbsp;￥4.25</span>
+                                <span class="goods-price-his">￥6.08</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：72&nbsp;盒</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.4 </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/lidezi.png" alt="[丽得姿]&nbsp;丽得姿 祛痘净肤修复面膜" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[丽得姿]&nbsp;丽得姿 祛痘净肤修复面膜</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥62.69&nbsp;~&nbsp;￥70.52</span>
+                                <span class="goods-price-his">￥182.53</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：100&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                7.5 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/xiangxun.jpg" alt="[2S Candle]&nbsp;2S CANDLE 香薰" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[2S Candle]&nbsp;2S CANDLE 香薰</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥291.52&nbsp;~&nbsp;￥353.99</span>
+                                <span class="goods-price-his">￥389.39</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：10&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.4 </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/fuheweita.jpg" alt="[ESTHEMED]&nbsp;ESTHEMED 复合维生素保湿补水乳液" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[ESTHEMED]&nbsp;ESTHEMED 复合维生素保湿补水乳液</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥48.21&nbsp;~&nbsp;￥53.88</span>
+                                <span class="goods-price-his">￥139.94</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：40&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.8 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/aitu.jpg" alt="[爱图凯皙]&nbsp;ATOCLASSIC 滋润舒缓净透洗面奶" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>                    
+                                    </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[爱图凯皙]&nbsp;ATOCLASSIC 滋润舒缓净透洗面奶</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥76.85&nbsp;~&nbsp;￥104.3</span>
+                                <span class="goods-price-his">￥200.78</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                4.7 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/naiping.jpg" alt="[保宁米迪恩]&nbsp;奶瓶奶嘴液体型瓶装清洁剂 600ml" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[保宁米迪恩]&nbsp;奶瓶奶嘴液体型瓶装清洁剂 600ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥18.92</span>
+                                <span class="goods-price-his">￥39.85</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：12&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.4 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/BIO.jpg" alt="[IOPE/亦博]&nbsp;亦博 神仙水BIO生物精华液深层调理精华液168ml" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[IOPE/亦博]&nbsp;亦博 神仙水BIO生物精华液深层调理精华液168ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥231.95&nbsp;~&nbsp;￥261.59</span>
+                                <span class="goods-price-his">￥365.05</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                4.0 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/gaoli.jpg" alt="[高丽雅娜]&nbsp;(新)高丽雅娜 senite美白抗皱修复再生水乳霜 3件套装" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[高丽雅娜]&nbsp;(新)高丽雅娜 senite美白抗皱修复再生水乳霜 3件套装</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥676.02&nbsp;~&nbsp;￥869.17</span>
+                                <span class="goods-price-his">￥1673.16</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;套</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.4 </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/mengzhuang.jpg" alt="[Mamonde/梦妆]&nbsp;梦妆 水润裸透气垫BB霜 23号 自然" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[Mamonde/梦妆]&nbsp;梦妆 水润裸透气垫BB霜 23号 自然</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥117.03&nbsp;~&nbsp;￥130.79</span>
+                                <span class="goods-price-his">￥182.53</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：41&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.6 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                                    <img src="img/lanzi.jpg" alt="[兰芝]&nbsp;兰芝 气垫BB霜 13号亮米色" style="display: inline-block;">
+                                </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[兰芝]&nbsp;兰芝 气垫BB霜 13号亮米色</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥149.58&nbsp;~&nbsp;￥163.66         </span>
+                                <span class="goods-price-his">￥225.12</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.8 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/xuehuaxiu.jpg" alt="[雪花秀]&nbsp;雪花秀 采淡致美气垫粉底液 13号浅粉色" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[雪花秀]&nbsp;雪花秀 采淡致美气垫粉底液 13号浅粉色</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥249.79&nbsp;~&nbsp;￥273.3          </span>
+                                <span class="goods-price-his">￥365.05</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;个</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                6.8 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/xuehuaxiu.jpg" alt="[雪花秀]&nbsp;雪花秀 滋晶雪肤美白水125ml" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[雪花秀]&nbsp;雪花秀 滋晶雪肤美白水125ml</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥270.61&nbsp;~&nbsp;￥296.08         </span>
+                                <span class="goods-price-his">￥395.47</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;瓶</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods-item">
+                        <div class="goods-item-wrap">
+                            <div class="goods-flag-discount" style="background: url(img/discount.png) no-repeat 4px 12px;">
+                                3.6 </div>
+                            <div class="goods-flag-df" style="background:url(img/dfshop.png)no-repeat center bottom;">
+                            </div>
+                            <div class="goods-img">
+                                <a href="">
+                <img src="img/kelaisi.jpg" alt="[美迪惠尔]&nbsp;美迪惠尔(可莱丝) NMF水润保湿面膜 10片/盒" style="display: inline-block;">
+                            </a>
+                            </div>
+                            <div class="goods-tit-buy">
+                                <span class="goods-tit-pic">
+                                    <i class="country kr">&nbsp;</i>
+                                </span>
+                                <span class="goods-tit-name">
+                                    <a href="" class="goods-tit">[美迪惠尔]&nbsp;美迪惠尔(可莱丝) NMF水润保湿面膜 10片/盒</a>
+                                </span>
+                            </div>
+                            <div class="goods-price">
+                                <span class="goods-price-now">￥66.02&nbsp;~&nbsp;￥72.23           </span>
+                                <span class="goods-price-his">￥182.53</span>
+                            </div>
+                            <div class="goods-number">
+                                <span class="goods-tip2">正品</span> <span class="goods-min-qty">最小起订量：1&nbsp;盒</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="b5c-true">
+                <dl>
+                    <dt class="b5c-true-ico true-icon-zhen"></dt>
+                </dl>
+                <dl>
+                    <dt class="b5c-true-ico true-icon-fei"></dt>
+                </dl>
+                <dl>
+                    <dt class="b5c-true-ico true-icon-gou"></dt>
+                </dl>
+                <dl>
+                    <dt class="b5c-true-ico true-icon-ren"></dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" id="requirejs" data-main="js/main.js" src="js/require-min.js"></script> -->
+    
+    <div class="footer_nav">
+        <div class="footer_nav_area" data-mps="footbar">
+            <dl>
+                <dt>新手指南</dt>
+                <dd><a href="">注册流程</a></dd>
+                <dd><a href="">采购流程</a></dd>
+                <dd><a href="">常见问题</a></dd>
+                <dd><a href="">供货规则</a></dd>
+                <dd><a href="">商品税率表</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="">帮5采简介</a></dd>
+                <dd><a href="">合作伙伴</a></dd>
+                <dd><a href="">投资人介绍</a></dd>
+            </dl>
+            <dl>
+                <dt>支付配送</dt>
+                <dd><a href="">付款方式</a></dd>
+                <dd><a href="">物流配送</a></dd>
+            </dl>
+            <dl>
+                <dt>售后保障</dt>
+                <dd><a href="">退款退货</a></dd>
+                <dd><a href="">跨境购须知</a></dd>
+            </dl>
+            <div class="footer_qr">
+                <h4>帮5采 APP下载</h4>
+                <p>移动端随时随地轻松关注最新货源，欢迎下载</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer_copy">
+        <ul class="footer_link">
+            <li><a href="">网站地图</a>&nbsp;|&nbsp;</li>
+            <li><a href="">跨境业务</a>&nbsp;|&nbsp;</li>
+            <li><a href="">用户协议</a>&nbsp;|&nbsp;</li>
+            <li><a href="">APP下载</a>&nbsp;|&nbsp;</li>
+            <li><a href="">媒体报道</a>&nbsp;|&nbsp;</li>
+            <li><a href="">联系我们</a></li>
+        </ul>
+        <p class="footer_beian">
+            <span class="footer_beian1"><img src="img/beian.png"/>
+                            <a href="">
+                            &nbsp;沪公网安备 31011502010629号</a>|&nbsp;沪ICP备11034776号-23&nbsp;版权所有 上海载和网络科技有限公司&nbsp;帮5采</span>
+            <span>Copyright@2017 b5cai.com All Right Reserved.</span>
+        </p>
+        <p class="friendly-link">
+            友情链接&nbsp;&nbsp;<a href="">(&nbsp;申请&nbsp;)&nbsp;</a>
+            <a href="">一件代发货源网</a>
+            <a href="">女装一件代发</a>
+            <a href="">童装一件代发</a>
+            <a href="">小意达</a>
+            <a href="">天猫店转让平台</a>
+            <a href="">女装批发</a>
+            <a href="">查快递</a>
+            <a href="">化妆品商城</a>
+            <a href="">优惠码</a>
+            <a href="">潮男服装搭配</a>
+            <a href="">玩具批发</a>
+            <a href="">新国货</a>
+            <a href="">麦一度正品商城</a>
+            <a href="">九块九包邮</a>
+            <a class="friendly-link-more">更多>>  </a>
+        </p>
+        <p class="friendly-link-other">
+            <a href="" class="friendly-link-other-one">淘宝网优惠券</a>
+            <a href="">淘宝商城</a>
+            <a href="">手表机芯</a>
+            <a href="">一折网</a>
+            <a href="">淘宝网今日特价女装</a>
+            <a href="">9.9包邮网</a>
+            <a href="">电商建站</a>
+            <a href="">蛮便宜</a>
+            <a href="">美瞳</a>
+            <a href="">报价宝</a>
+            <a href="">试用网</a>
+            <a href="">淘宝优惠券</a>
+            <a href="">乐百姓商城</a>
+        </p>
+    </div>
+    <script src="js/index.js"></script>
+    </div>
+    <div class="right_banner_fixed_wrap">
+        <div class="right_banner_fixed">
+            <ul>
+                <li class="nav01"><a data-mps="about" href=""></a><span>值得信赖的帮5采</span></li>
+                <li class="nav02">
+                    <a href=""></a>
+                    <span>点击留言</span>
+                </li>
+                <li class="nav03"><a href=""></a><span>物流配送</span></li>
+                <li class="nav04"><a style="cursor: pointer;"></a><span></span></li>
+                <li class="nav05"><a href="" class="cartpic"></a><span>购物车</span></li>
+                <li class="nav06"><a style="cursor: pointer;display: block;" class="return_top"></a><span>返回顶部</span></li>
+            </ul>
+        </div>
+        <div class="return_top" style="display: block;">
+        </div>
+    </div>
+</body>
+<script>
+
+    $(function () {
+
+        var userStr = $.cookie("user") ? $.cookie("user") : "";
+        var userObj = convertUserStrToObj(userStr);
+        for(i in userObj){
+            console.log(i);
+            console.log(userObj[i].mobile);
+
+        }
+        $(".b5c-login>div>a:first").text(i);
+        $(".b5c-login>div>a:first").attr("color","red");
+
+
+
+
+        function convertUserStrToObj(userStr){
+            //如果是空字符串，即没有用户信息，那么为空，直接返回一个空对象
+            if(!userStr){
+                return {};
+            }
+            var users = userStr.split(":");
+            var obj = {};
+            for(var i = 0; i < users.length; i ++){
+                var data = users[i].split(",");
+                //以用户的id为健，用户的其他信息为值，这个值也设计为一个对象
+                obj[data[0]] = {
+                    mobile : data[1],
+                    username : data[2],
+                    password : data[3],
+                    email : data[4],
+                    qq : data[5]
+                }
+            }
+            return obj;
+        }
+    })
+
+</script>
+</html>
